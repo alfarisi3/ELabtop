@@ -1,0 +1,617 @@
+@media (max-width: 992px) {
+
+    /* Navbar */
+    .navbar-brand img {
+        width: 120px;
+    }
+
+    .navbar-nav {
+        margin-left: auto;
+    }
+
+    .navbar-nav .nav-link {
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+
+    }
+
+    .navbar-nav .btn {
+        background-color: #FF0000;
+        color: white;
+        width: 130px;
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+
+    .navbar-nav iconify-icon {
+        margin-right: 10px;
+    }
+
+    .navbar-nav .section-btn a {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Navbar */
+
+    /* footer */
+    .footer {
+        margin-top: 100px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+    }
+
+    .footer img {
+        width: 120px;
+    }
+
+    .footer h6 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    .section-akun img {
+        width: 30px;
+        margin-inline: 10px;
+        margin-left: 0px;
+    }
+
+    /* footer */
+
+
+
+
+    /*INDEX */
+    /* hero */
+    .hero h1 {
+        width: 400px;
+    }
+
+    .hero p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .hero a {
+        display: flex;
+        align-items: center;
+    }
+
+    .hero .btn {
+        background-color: #FF0000;
+        color: white;
+        width: 140px;
+        text-align: center;
+    }
+
+    .hero img {
+        width: 75% !important;
+        margin-top: 40px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* hero */
+
+    /* brnad */
+    .brand img {
+        margin-top: 40px;
+        width: 50% !important;
+        display: flex !important;
+        margin-left: 90px;
+
+    }
+
+    /* brnad */
+
+    /* rekom */
+    .rekomendasi {
+        margin-top: 80px;
+    }
+
+    .rekomendasi .section-icon iconify-icon {
+        margin-right: 5px;
+    }
+
+    .rekomendasi .section-icon a {
+        margin-left: 70% !important;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: black;
+
+    }
+
+    .rekomendasi .card {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .rekomendasi .card a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .rekomendasi .btn {
+        background-color: #FF0000;
+        color: white;
+        width: 100%;
+    }
+
+    /* rekom */
+
+    /* promo */
+    .promo img {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    /* promo */
+
+    /* aksesoris */
+    .aksesoris .section-icon iconify-icon {
+        margin-right: 5px;
+    }
+
+    .aksesoris .section-icon a {
+        margin-left: 70% !important;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: black;
+    }
+
+    .aksesoris .card {
+        margin-top: 30px;
+        text-align: center;
+        border: none;
+
+    }
+
+
+    /* aksesoris */
+    /* INDEX */
+
+
+
+    /* KATALOG   */
+    /* breadcrumb */
+    .katalog a {
+        color: black;
+        text-decoration: none;
+    }
+
+    /* breadcrumb */
+    /* card */
+    .rekomen h5 {
+        margin-bottom: 10px;
+    }
+
+    .rekomen .section-icon iconify-icon {
+        margin-right: 5px;
+    }
+
+    .rekomen .section-icon a {
+        margin-left: 70% !important;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: black;
+    }
+
+    .rekomen .card {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .rekomen .card a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .rekomen .btn {
+        background-color: #FF0000;
+        color: white;
+        width: 100%;
+    }
+
+    /* card */
+
+    .katalog form {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .katalog .promo2 img {
+        width: 100%;
+        margin-top: 120px !important;
+        margin-bottom: 120px !important;
+    }
+
+    /* KATALOG   */
+
+
+
+    /* DETAIL */
+    .detail .breadcrumb {
+        margin-top: 30px;
+    }
+
+    .detail .breadcrumb a {
+        display: flex;
+        align-items: center;
+        font-size: x-large;
+    }
+
+    /* spec */
+    .barang {
+        margin-top: 30px;
+    }
+
+    .barang h2 {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .barang p {
+        margin-left: 20px;
+    }
+
+    .barang p b {
+        color: #ff3d47;
+    }
+
+    .barang .card p {
+        margin: 4px;
+        font-size: small;
+    }
+
+    /* spec */
+
+    /* minat */
+    .minat {
+        margin-top: 20px;
+    }
+
+    .minat a button {
+        width: 167px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .form-select {
+        width: 60px;
+        margin-left: 20px;
+    }
+
+    /* minat */
+    /* DETAIL */
+
+
+    /* KERANJANG */
+    .keranjang .breadcrumb {
+        margin-top: 30px;
+    }
+
+    .keranjang .breadcrumb a {
+        display: flex;
+        align-items: center;
+        font-size: x-large;
+    }
+
+    .table {
+        margin-top: 30px;
+        width: 60px;
+    }
+
+    .table th {
+        text-align: center;
+        font-size: small;
+    }
+
+    .table td {
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .table th img {
+        width: 50px !important;
+    }
+
+    .table td button {
+        width: 70px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px !important;
+    }
+
+    .check h6 {
+        margin-top: 30px;
+        margin-left: 150px !important;
+    }
+
+    .check h6 b {
+        margin-left: 10px !important;
+    }
+
+    .check .btn {
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: rgb(80, 238, 80);
+        color: white;
+        margin-top: 30px !important;
+        margin-left: 245px !important;
+    }
+
+    /* KERANJANG */
+
+
+
+    /* CHEKOUT */
+    /* barang */
+    .checkout .breadcrumb {
+        margin-top: 30px;
+    }
+
+    .checkout .breadcrumb a {
+        display: flex;
+        align-items: center;
+        font-size: x-large;
+    }
+
+    .checkout h3 {
+        margin-left: 10px;
+    }
+
+    .checkout h5 {
+        margin-left: 10px;
+    }
+
+    .checkout p {
+        margin-left: 10px;
+    }
+
+    .checkout .dibeli img {
+        width: 100%;
+    }
+
+    .checkout .dibeli select {
+        font-size: small;
+        width: 56px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .checkout .dibeli textarea {
+        width: 350px;
+        margin-left: 10px;
+    }
+
+    /* barang */
+
+    /* alamat */
+    .checkout h3 {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .isi-alamat label {
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    /* alamat */
+
+    /* pembyaran */
+    .pembayaran h5 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .pembayaran select {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .pembayaran p {
+        margin-bottom: 10px;
+    }
+
+    .pembayaran h6 {
+        margin-left: 10px;
+    }
+
+    .pembayaran img {
+        width: 80px;
+        margin-top: 17px;
+        margin-left: 10px;
+    }
+
+    /* pembyaran */
+
+    /* ringkasan */
+    .ringkasan p e {
+        margin-left: 60px !important;
+    }
+
+    .ringkasan h6 {
+        margin-left: 10px;
+    }
+
+    .ringkasan h6 x {
+        color: #FF0000;
+        margin-left: 97px !important;
+    }
+
+    /* ringkasan */
+
+    /* btn */
+    .checkbtn .btn {
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(80, 238, 80);
+        color: white;
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .checkbtn a {
+        display: flex;
+        margin-top: 55px;
+        margin-left: 10px;
+        text-decoration: none;
+        color: #FF0000;
+    }
+
+    .checkbtn h6 {
+        margin-top: 57px;
+        margin-left: 10px;
+        color: #FF0000;
+    }
+
+    /* btn */
+    /* CHECKOUT */
+
+
+    /* KONFIRMASI */
+    .konfirmasi .breadcrumb {
+        margin-top: 30px;
+    }
+
+    .konfirmasi .breadcrumb a {
+        display: flex;
+        align-items: center;
+        font-size: x-large;
+    }
+
+    .konfirmasi .dibeli img {
+        width: 100%;
+    }
+
+    .konfirmasi h3 {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        margin-left: 10px !important;
+    }
+
+    .konfirmasi h5 {
+        margin-left: 10px;
+    }
+
+    .konfirmasi p {
+        margin-left: 10px;
+    }
+
+    .konfirmasi i {
+        margin-left: 10px;
+    }
+
+    .konfirmasi .info h6 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 10px !important;
+    }
+
+    .info p {
+        margin-bottom: 5px;
+    }
+
+    .info img {
+        width: 150px !important;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    /* bayar */
+    .checkbayar .btn {
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(80, 238, 80);
+        color: white;
+        margin-left: 0px;
+        margin-top: 50px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .checkbayar a {
+        display: flex;
+        margin-top: 0px !important;
+        margin-left: 10px !important;
+        text-decoration: none;
+        color: #FF0000;
+    }
+
+    .checkbayar h6 {
+        margin-top: 57px;
+        margin-left: 10px;
+        color: #FF0000;
+    }
+
+    .checkbayar p {
+        margin-top: 20px;
+    }
+
+    /* KONFIRMASI */
+
+
+
+    /* SUKSES */
+    .sukses {
+        margin-top: 10px !important;
+    }
+
+    .sukses h2 {
+        margin-top: 30px !important;
+        margin-bottom: 15px;
+        margin-left: 10px;
+    }
+    .sukses h5 {
+        margin-left: 10px;
+    }
+    .sukses h6 {
+        margin-left: 10px;
+    }
+
+    .sukses p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .sukses img {
+        margin-top: 0px !important;
+        width: 120px !important;
+    }
+
+    .sukses .btn {
+        margin-top: 30px !important;
+        width: 200px;
+        background-color: #FF0000;
+        color: white;
+    }
+
+    .section-sukses img {
+        width: 200px !important;
+        margin-left: 150px;
+    }
+
+    /* SUKSES */
+}

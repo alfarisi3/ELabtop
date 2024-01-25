@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keranjang</title>
+    <!-- bootstrap css/js -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/LogoE.ico" type="image/x-icon">
+    <!-- iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./index.html">Home</a>
+                    <a class="nav-link" href="./katalog.html">Katalog Laptop</a>
+                    <div class="section-btn">
+                        <a class="btn" href="./keranjang.html"><iconify-icon icon="fa-solid:cart-plus"
+                                style="color: white;"></iconify-icon>Keranjang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <div class="keranjang">
+        <div class="container">
+            <!-- breadcrumb -->
+            <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./Katalog.html"><iconify-icon
+                                icon="tabler:circle-arrow-left-filled" style="color: #ff3d47;"></iconify-icon></a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><b>Keranjang</b></li>
+                </ol>
+            </nav>
+            <!-- breadcrumb -->
+
+            <!-- table -->
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Produk</th>
+                        <th scope="col">Nama</th>
+                        <th scope="col">Jumlah</th>
+                        <th scope="col">Harga</th>
+                        <th scope="col">Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"><img src="./assets/t480s.png" alt=""></th>
+                        <td>Lenovo Thinkpad T480s</td>
+                        <td>1</td>
+                        <td>Rp. 21.000.000</td>
+                        <td><button type="button" class="btn btn-danger"><iconify-icon icon="fa-solid:trash"
+                                    style="color: white;"></iconify-icon>Hapus</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- table -->
+
+            <div class="check">
+                <h6>Total Harga: <b>Rp. 21.000.000</b></h6>
+                <a class="btn" href="./checkout.html">Checkout<iconify-icon
+                    icon="iconamoon:arrow-right-2-duotone" style="color: white;"></iconify-icon></a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

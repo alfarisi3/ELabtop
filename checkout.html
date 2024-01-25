@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+
+    <!-- bootstrap css/js -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/LogoE.ico" type="image/x-icon">
+    <!-- iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./index.html">Home</a>
+                    <a class="nav-link" href="./katalog.html">Katalog Laptop</a>
+                    <div class="section-btn">
+                        <a class="btn" href="./keranjang.html"><iconify-icon icon="fa-solid:cart-plus"
+                                style="color: white;"></iconify-icon>Keranjang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <div class="checkout">
+        <div class="container">
+
+            <!-- breadcrumb -->
+            <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./Keranjang.html"><iconify-icon
+                                icon="tabler:circle-arrow-left-filled" style="color: #ff3d47;"></iconify-icon></a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><b>Checkout</b></li>
+                </ol>
+            </nav>
+            <!-- breadcrumb -->
+
+            <!-- barang -->
+            <h3>Barang yang dibeli</h3>
+            <div class="dibeli">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="./assets/t480s.png" alt="">
+                    </div>
+                    <div class="col-lg-9">
+                        <h5>Lenovo <br>Thinkpad T480s</h5>
+                        <p>Rp. 21.000.000</p>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>1</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                        </select>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                placeholder="Tulis catatan untuk barang ini....." rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- barang -->
+
+            <!-- isi alamat -->
+            <h3>Pengiriman dan Pembayaran</h3>
+            <h5>Lengkapi detail alamat</h5>
+            <div class="isi-alamat">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <form action="">
+                            <label for="namatelepon"><b>Nama Penerima</b></label>
+                            <input type="text" class="form-control" placeholder="Contoh ; Jhon">
+                        </form>
+                    </div>
+                    <div class="col-lg-6">
+                        <form action="">
+                            <label for="namatelepon"><b>Nomor Telepon</b></label>
+                            <input type="text" class="form-control" placeholder="Contoh ; 08xxxxxxxxx">
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label"><b>Alamat Lengkap</b></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                placeholder="Contoh ; jl.rambutan, no.1" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- isi alamat -->
+
+            <!-- pembayaran -->
+            <div class="pembayaran">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <h5>Pilih Pembayaran</h5>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Transfer Bank</option>
+                            <option value="1">Alfamart</option>
+                            <option value="2">Indomaret</option>
+                        </select>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <img src="./assets/mandiri_icon.png" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <p>Mandiri Virtual Account</p>
+                                <h6>90089181873817</h6>
+                                <h6>a.n Syntop Laptopindo</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h5>Pilih Pengirman</h5>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Reguler</option>
+                            <option value="1">Premium</option>
+                            <option value="2">Hemat</option>
+                        </select>
+                        <p>Rp. 20.000</p>
+                    </div>
+                </div>
+            </div>
+            <!-- pembayaran -->
+
+            <!-- ringkasan -->
+            <div class="ringkasan">
+                <h3>Ringkasan Belanja</h3>
+                <p class="text-secondary">Total Harga (1 Barang) <e>Rp. 21.000.000</e> </p>
+                <p class="text-secondary">Total Ongkos Kirim <e style="margin-left: 144px;">Rp. 20.000</e></p>
+                <h6>Total Tagihan <x>Rp. 21.020.000</x> </h6>
+            </div>
+            <!-- ringkasan -->
+
+            <!-- btn-checkout -->
+            <div class="checkbtn">
+                <div class="row">
+                    <div class="col-2">
+                        <a class="btn" href="./konfirmasi.html">Checkout<iconify-icon
+                            icon="iconamoon:arrow-right-2-duotone" style="color: white;"></iconify-icon></a>
+                    </div>
+                    <div class="col-10">
+                        <a href=""><b>Batalkan Pesanan</b></a>
+                    </div>
+                </div>
+            </div>
+            <!-- btn-checkout -->
+        </div>
+    </div>
+
+</body>
+
+</html>
